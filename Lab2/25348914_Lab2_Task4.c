@@ -31,15 +31,25 @@ int task4 (int argc, char *argv[])
     /*
     * CODE HERE: Open the first file (file1) for writing
     */
+    if ((outfile = open(argv[1], O_WRONLY | O_CREAT | O_APPEND, 0644)) < 0) {
+        perror(argv[1]);
+        exit(1);
+    }
+
+
+    /*
+    * CODE HERE: Copy data from the second file to the first file
+    */
+    while ((n = read(infile, buffer, sizeof(buffer))) > 0) {
+        write(outfile, buffer, n);
+    }
+
+    /*
+     * Close files before exiting
+     */
+    close(infile);
+    close(outfile);
+
+    exit(0);
+
 }
-
-/*
-* CODE HERE: Copy data from the second file to the first file
-*/
-
-/*
-* CODE HERE: Close files before exiting
-*/
-
-//    exit(0);
-//}
