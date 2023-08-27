@@ -1,4 +1,4 @@
-"E:\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\Monash\FIT2100\2023\Lab\FIT2100-Monash-Operating_System -B E:\Monash\FIT2100\2023\Lab\FIT2100-Monash-Operating_System\cmake-build-debug
+"E:\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\Monash\2023_S2\FIT2100\2023\Lab\FIT2100-Monash-Operating_System -B E:\Monash\2023_S2\FIT2100\2023\Lab\FIT2100-Monash-Operating_System\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
@@ -6,5 +6,14 @@
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
--- Generating done
--- Build files have been written to: E:/Monash/FIT2100/2023/Lab/FIT2100-Monash-Operating_System/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    W2/task_2.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: FIT2100_Monash_Operating_System
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

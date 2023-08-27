@@ -1,0 +1,6 @@
+Use Case:
+
+exec(): This function is often used when you want to replace the current process with another process. For example, if you're writing a program that acts as a custom shell and you want to launch a new program, you might use exec() to replace the shell process with the new program.
+
+
+system(): This function is more suitable when you want to run a command and capture its output, or when you want to run a command in the background while your program continues to execute. Since system() returns the command's exit status and captures its output, it's useful for scenarios where you need to process the command's results.

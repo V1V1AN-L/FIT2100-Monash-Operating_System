@@ -1,3 +1,0 @@
-E:/Monash/FIT2100/2023/Lab/FIT2100-Monash-Operating_System/cmake-build-debug/CMakeFiles/FIT2100_Monash_Operating_System.dir
-E:/Monash/FIT2100/2023/Lab/FIT2100-Monash-Operating_System/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Monash/FIT2100/2023/Lab/FIT2100-Monash-Operating_System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
