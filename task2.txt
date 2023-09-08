@@ -1,0 +1,6 @@
+- The processes do not complete in the same order they were initiated.
+- The order of completion depends on the operating system's process scheduler, which determines which process gets CPU time and in what order.
+- The scheduler's decisions may be influenced by factors such as process priority, system load, and other scheduling algorithms in use.
+- The scheduling algorithm aims to allocate CPU time fairly and efficiently among competing processes, leading to variations in execution order.
+
+In summary, the operating system's process scheduling is responsible for the order of process execution. Processes can complete in different orders each time the program is run, and this behavior is expected due to the non-deterministic nature of process scheduling.
